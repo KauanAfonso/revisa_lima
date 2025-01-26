@@ -12,6 +12,10 @@ html{
 
 header{
     display: flex;
+    background-color: rgba(57, 57, 57, 0.516);
+    justify-content: center;
+    padding:2rem;
+    margin-bottom: 2rem;
 }
 
 header ul{
