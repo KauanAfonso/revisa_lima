@@ -12,8 +12,9 @@ html{
 
 header,footer{
     display: flex;
-    background-color: rgba(57, 57, 57, 0.516);
+    align-items: center;
     justify-content: center;
+    background-color: rgba(57, 57, 57, 0.516);
     padding:2rem;
     margin-bottom: 2rem;
 }
@@ -45,4 +46,27 @@ header ul{
 footer{
     margin-top: 2rem;
     margin-bottom: 0;
+
+}
+
+.div_contat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_contact h3{
+    font-size: 3em;
+}
+
+.list_contacts{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list_contacts li a img{
+    max-width: 4rem;
 }
