@@ -54,8 +54,8 @@ header ul{
     flex-direction: center;
     align-items: center;
     background-color: rgba(57, 57, 57, 0.516);
-    padding:2rem;
-    padding: 0 4rem;
+    padding: 2rem 4rem;
+    gap: 2px;
 }
 
 footer{
@@ -88,4 +88,24 @@ footer{
 
 .list_contacts li a img{
     max-width: 4rem;
+}
+
+.movies{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.movies_grade{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 8px;
+
+}
+.movies_images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
