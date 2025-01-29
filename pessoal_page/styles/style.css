@@ -10,7 +10,7 @@ html{
     background-color: rgb(41, 41, 41);
 }
 
-header{
+header,footer{
     display: flex;
     background-color: rgba(57, 57, 57, 0.516);
     justify-content: center;
@@ -40,4 +40,9 @@ header ul{
     align-items: center;
     background-color: rgba(57, 57, 57, 0.516);
     padding:2rem;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
